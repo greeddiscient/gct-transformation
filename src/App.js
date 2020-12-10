@@ -130,6 +130,7 @@ function App() {
               <Select
                 labelId="demo-simple-select-label"
                 id="demo-simple-select"
+                displayEmpty
               >
                 <MenuItem value={10}>Oct 2020</MenuItem>
               </Select>

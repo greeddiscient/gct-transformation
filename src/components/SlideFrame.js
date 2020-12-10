@@ -77,9 +77,8 @@ const identifier = {
 
 export default function SlideFrame(){
     const location = useLocation()
-    const [count, setCount] = React.useState(0);
+    const [count, setCount] = React.useState(0)
     var tagging = location.pathname.substring(1)
-    setCount(0)
     if (tagging===""){
         tagging='group'
     }
