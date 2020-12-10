@@ -137,7 +137,7 @@ function App() {
                 value = {period}
                 onChange = {handleSelectChange}
               >
-                <MenuItem value={10}>Oct 2020</MenuItem>
+                <MenuItem value={'Oct 2020'}>Oct 2020</MenuItem>
               </Select>
             </FormControl>
           </ListItem>
