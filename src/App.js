@@ -85,9 +85,11 @@ function App() {
   }
   const handleFUClick = () => {
     setfuOpen(!fuopen);
+    setcfuOpen(false)
   };
   const handleCFUClick = () => {
     setcfuOpen(!cfuopen);
+    setfuOpen(false)
   };
   return (
     <Router>
