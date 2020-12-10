@@ -159,15 +159,19 @@ function App() {
           <Collapse in={cfuopen} timeout="auto" unmountOnExit>
             <List component="div" disablePadding>
               <ListItem button className={classes.nested} component = {RouterLink} to='/mob'>
+                <ListItemIcon><TvIcon/></ListItemIcon>
                 <ListItemText primary="Mobile"/>
               </ListItem>
               <ListItem button className={classes.nested} component = {RouterLink} to='/cons'>
+                <ListItemIcon><TvIcon/></ListItemIcon>  
                 <ListItemText primary="Consumer" />
               </ListItem>
               <ListItem button className={classes.nested} component = {RouterLink} to='/ent'>
+                <ListItemIcon><TvIcon/></ListItemIcon>  
                 <ListItemText primary="Enterprise" />
               </ListItem>
               <ListItem button className={classes.nested} component = {RouterLink} to='/wib'>
+                <ListItemIcon><TvIcon/></ListItemIcon>
                 <ListItemText primary="Wholesale" />
               </ListItem>
             </List>
@@ -183,21 +187,27 @@ function App() {
           <Collapse in={fuopen} timeout="auto" unmountOnExit>
             <List component="div" disablePadding>
               <ListItem button className={classes.nested}component = {RouterLink} to='/db'>
+              <ListItemIcon><TvIcon/></ListItemIcon>
                 <ListItemText primary="Digital Business" />
               </ListItem>
               <ListItem button className={classes.nested}component = {RouterLink} to='/nits'>
+              <ListItemIcon><TvIcon/></ListItemIcon>
                 <ListItemText primary="NITS" />
               </ListItem>
               <ListItem button className={classes.nested}component = {RouterLink} to='/fin'>
+              <ListItemIcon><TvIcon/></ListItemIcon>
                 <ListItemText primary="Finance" />
               </ListItem>
               <ListItem button className={classes.nested}component = {RouterLink} to='/hcm'>
+              <ListItemIcon><TvIcon/></ListItemIcon>
                 <ListItemText primary="Human Capital" />
               </ListItem>
               <ListItem button className={classes.nested}component = {RouterLink} to='/sp'>
+              <ListItemIcon><TvIcon/></ListItemIcon>
                 <ListItemText primary="Strategy" />
               </ListItem>
               <ListItem button className={classes.nested}component = {RouterLink} to='/gct'>
+              <ListItemIcon><TvIcon/></ListItemIcon>
                 <ListItemText primary="GCT" />
               </ListItem>
             </List>
