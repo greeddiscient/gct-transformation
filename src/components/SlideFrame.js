@@ -1,4 +1,4 @@
-import React,{useState} from 'react'
+import React from 'react'
 import { makeStyles } from '@material-ui/core/styles';
 import { CardMedia, Box, Card } from '@material-ui/core';
 import mob1 from '../img/mob/1.png'

@@ -78,6 +78,10 @@ function App() {
   const classes = useStyles();
   const [fuopen, setfuOpen] = React.useState(false);
   const [cfuopen, setcfuOpen] = React.useState(false);
+  const [period, setPeriod] = React.useState('Oct 2020');
+  const handleSelectChange = (event) => {
+    setPeriod(event.target.value);
+  };
 
   const handleGroupClick=()=>{
     setfuOpen(false)
@@ -130,7 +134,8 @@ function App() {
               <Select
                 labelId="demo-simple-select-label"
                 id="demo-simple-select"
-                displayEmpty
+                value = {period}
+                onChange = {handleSelectChange}
               >
                 <MenuItem value={10}>Oct 2020</MenuItem>
               </Select>
