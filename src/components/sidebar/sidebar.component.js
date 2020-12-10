@@ -20,12 +20,10 @@ export default class Sidebar extends React.Component{
         return(
             <div className="sidebar">
                 <div className="period">
-    
                     <h1 className="period-header">Period:</h1>
                     <select>
                         <option value="Oct 2020">Oct 2020</option>
                     </select>
-    
                 </div>        
                 <div className = "group-transformation">
                     Group Transformation

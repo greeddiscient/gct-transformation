@@ -3,7 +3,11 @@
   height: 100vh;
   background-color: red;
 }
-
+.logo{
+  height:5vh
+}
+.header{
+}
 .App-logo {
   height: 40vmin;
   pointer-events: none;
