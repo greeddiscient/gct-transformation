@@ -79,6 +79,10 @@ function App() {
   const [fuopen, setfuOpen] = React.useState(false);
   const [cfuopen, setcfuOpen] = React.useState(false);
 
+  const handleGroupClick=()=>{
+    setfuOpen(false)
+    setcfuOpen(false)
+  }
   const handleFUClick = () => {
     setfuOpen(!fuopen);
   };
@@ -132,7 +136,7 @@ function App() {
         </List>
         <Divider />
         <List>
-          <ListItem button key="group" component = {RouterLink} to='/'>
+          <ListItem button onClick={handleGroupClick} key="group" component = {RouterLink} to='/'>
             <ListItemIcon><TvIcon/></ListItemIcon>
             <ListItemText primary="Group Transformation"  />
           </ListItem>
