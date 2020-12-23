@@ -21,6 +21,7 @@ import Logo from 'src/components/Logo';
 const useStyles = makeStyles(theme => ({
   root: {
     left: 256,
+    minWidth: '1100px',
     width: 'calc(100% - 256px)',
     height: 69,
     [theme.breakpoints.down('md')]: {

@@ -3,7 +3,7 @@ import { makeStyles } from '@material-ui/core/styles';
 import { CardMedia, Box, Card } from '@material-ui/core';
 import ChevronRightIcon from '@material-ui/icons/ChevronRight';
 import ChevronLeftIcon from '@material-ui/icons/ChevronLeft';
-import { useLocation, useNavigate } from 'react-router-dom';
+import { useLocation} from 'react-router-dom';
 
 import mob1 from '../img/mob/1.png';
 import mob2 from '../img/mob/2.png';

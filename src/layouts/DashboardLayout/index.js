@@ -10,6 +10,8 @@ const useStyles = makeStyles(theme => ({
     display: 'flex',
     height: '100%',
     overflow: 'hidden',
+    minWidth: '1100px',
+    minHeight: '700px',
     width: '100%'
   },
   wrapper: {
