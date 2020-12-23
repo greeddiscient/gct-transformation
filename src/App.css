@@ -3,10 +3,10 @@
   height: 100vh;
   background-color: red;
 }
-.logo{
-  height:5vh
+.logo {
+  height: 5vh;
 }
-.header{
+.header {
 }
 .App-logo {
   height: 40vmin;
@@ -31,6 +31,21 @@
 
 .App-link {
   color: #61dafb;
+}
+
+.MuiListItemText-root .MuiListItemText-primary {
+  white-space: break-spaces;
+  font-size: 0.85rem;
+}
+.MuiList-root .MuiSvgIcon-root {
+  font-size: 1rem;
+}
+.MuiList-root .MuiListItemIcon-root {
+  min-width: 35px;
+}
+
+.makeStyles-drawerPaperClose-10 .MuiListItemText-root .MuiListItemText-primary {
+  display: none;
 }
 
 @keyframes App-logo-spin {
