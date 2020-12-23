@@ -3,7 +3,7 @@ import { makeStyles } from '@material-ui/core/styles';
 import { CardMedia, Box, Card } from '@material-ui/core';
 import ChevronRightIcon from '@material-ui/icons/ChevronRight';
 import ChevronLeftIcon from '@material-ui/icons/ChevronLeft';
-import { useLocation } from 'react-router-dom';
+import { useLocation, useNavigate } from 'react-router-dom';
 
 import mob1 from '../img/mob/1.png';
 import mob2 from '../img/mob/2.png';
@@ -87,13 +87,24 @@ const identifier = {
 
 export default function SlideFrame() {
   const location = useLocation();
+  
   const [count, setCount] = React.useState(0);
+  const [path, setPath] = React.useState("");
   let tagging = location.pathname.substring(1);
+  let pathName = location.pathname.substring(1);
   if (tagging === 'app') {
     tagging = 'group';
   }
+  console.log(pathName)
+  console.log(path)
+  if(pathName===path){
+  }else{
+    setPath(pathName)
+    setCount(0)
+  }
 
   const taggingKey = tagging.replace('app/', '');
+
   const handleLeft = () => {
     if (count === 0) {
     } else {
